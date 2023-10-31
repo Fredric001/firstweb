@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.bar{
+    background: white;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bar img{
+    padding-left: 60px;
+    padding-top: 10px;
+    height: 70px;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    column-gap: 40px;
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.body{
+    background: #969ee7;
+    height: 800px;
+}
+.body img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 0px 0px 40px 40px;
+}
+.body .calc .text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fecd04;
+}
+.body2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body2 .scholarship{
+    padding-left: 90px;
+}
+.body2 .scholarship img{
+    height: 200px;
+    width: 190px;
+}
+
+.body2 .insurance img{
+    padding-top: 20px;
+    height: 200px;
+    width: 190px;
+}
+.body2 .customer img{
+    padding-top: 20px;
+    height: 200px;
+    width: 150px;
+}
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.address{
+    margin-left: 20px;
+}
+.follow{
+    margin-right: 0px;
+}
+.follow h3{
+    padding-left: 35px;
+}
+
+.follow img{
+    height: 60px;
+    padding-top: 20px;
+}
+
+.form p{
+    padding-top: 10px;
+}
+.form input{
+    height: 30px;
+    width: 300px;
+}
+.send{
+    margin-left: 130px;
+    margin-top: 20px;
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+footer a{
+    text-decoration: none;
+}
+
+
+/* end of home page nav and footer */
+
+
+/* start of about page */
+
+.photo img{
+    width: 100%;
+    height: 70vh;
+}
+.photo .text{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.photo .text h3{
+    font-size: 36px;
+    color: gold;
+}
+.photo .text h5{
+    color: white;
+    font-size: 20px;
+    padding-left: 190px;
+}
+.photo .text h3 span{
+    color: blue;
+    padding-left: 90px;
+}
+
+.description{
+    margin-top: -10px;
+    background: #969ee7;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.description h2{
+    color: white;
+    padding-bottom: 40px;
+}
+/* * end of about page */ 
+
+
+/* start of services page */
+
+.floor{
+    background: #969ee7;
+    padding-top: 100px;
+}
+.floor .head{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.floor .icon1 img{
+    height: 100px;
+}
+.floor .icon1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.floor .heading1{
+    display: flex;
+    justify-content: space-around;
+    color: #fecd04;
+    padding-bottom: 30px;
+}
+.floor .paragaph1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.floor .icon2 img{
+    height: 100px;
+}
+.floor .icon2{
+    display: flex;
+    justify-content: space-around;
+}
+.floor .paragaph2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.floor .heading2{
+    display: flex;
+    justify-content: space-around;
+    color: #fecd04;
+    padding-bottom: 30px;
+}
+
+/* end of services page */
+
+/* start of contact page */
+.endphoto img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 0px 0px 40px 40px;
+}
+.form2{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background: #d9d9d9;
+    width: 750px;
+    height: 413px;
+}
+.form2 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.form2 form .firstColumn {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn3 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn4 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn div{
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn2 div{
+    display: flex;
+}
+.form2 form .firstColumn2 div h5{
+    padding-top: 5px;
+    padding-right: 40px;
+}
+.form2 form .firstColumn3 div{
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn4 div{
+    display: flex;
+    justify-content: space-around;
+}
+.form2 form .firstColumn input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+.form2 form .firstColumn2 input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+.form2 form .firstColumn3 input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+.form2 form .firstColumn4 input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+.form2 form .submit{
+    text-decoration: none;
+    color: white;
+    background: #fecd04;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 650px;
+}
+.form2 form .submit a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconEnd{
+    background: #969ee7;
+    margin-top: -50px;
+    height: 370px;
+}
+.iconEnd #titleLast{
+    color: #fecd04;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+.iconEnd .imges{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.iconEnd .contactInfo{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: white;
+    font-size: 10px;
+}
+.iconEnd img{
+    height: 70px;
+}
+
+
+
+/* end of contact page */
